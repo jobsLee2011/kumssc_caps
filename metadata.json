@@ -1,0 +1,7 @@
+{
+  "name": "건대부중 학생회",
+  "description": "건대부중 학생회에서 제공하는 누리집입니다.\nKRDS기반으로 디자인 및 설계되었습니다.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
