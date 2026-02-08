@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="ko" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>건국대학교 사범대학 부속중학교 학생자치회 (KUMSSC)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            krds: {
+              green: '#008248',
+              'green-dark': '#006a3a',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+  <style>
+    body {
+      font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #020617; /* Slate-950 */
+      color: #f1f5f9; /* Slate-100 */
+    }
+    
+    .animate-gradient-slow {
+      background-size: 200% 200%;
+      animation: gradient-slow 15s ease infinite;
+    }
+
+    @keyframes gradient-slow {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* 스크롤바 숨기기 */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
+    "recharts": "https://esm.sh/recharts@^3.7.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-slate-950 text-slate-100 transition-colors duration-300">
+  <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
